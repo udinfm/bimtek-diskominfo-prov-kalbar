@@ -1,6 +1,7 @@
 //load config db
 //using env
 require('dotenv/config')
+const fs = require('fs')
 
 exports.knex = require('knex')({
     client: 'mysql',
