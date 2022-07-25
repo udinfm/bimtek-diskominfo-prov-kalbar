@@ -1,0 +1,11 @@
+package-lock.json
+
+# ignore di node_modules
+node_modules/
+
+# ignore di folder config
+config/
+!config/index.js
+
+# ignore environtment config
+.env
