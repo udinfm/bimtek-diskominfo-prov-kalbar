@@ -38,6 +38,22 @@ Getter.jumlahHalaman = (limit)=>{
 }
 
 //daftar data
-Getter.
+Getter.daftarData = (page,limit)=>{
+    return new Promise((resolve,reject)=>{
+        page    = parseInt(page)
+        limit   = parseInt(limit)
+        const offset = (page-1)*limit
+
+        dbknex('pegawai')
+        .limit(limit)
+        .offset(offset)
+        .orderBy('nama')
+        .then(data=>{
+            resolve(data)
+        },err=>{
+            reject(err)
+        })
+    })
+}
 
 module.exports = Getter
