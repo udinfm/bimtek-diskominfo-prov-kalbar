@@ -1,0 +1,22 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "pengenalan pemrograman sequential, concurrent dan parallel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udinfm/bimtek-diskominfo-prov-kalbar.git"
+  },
+  "author": "very shafrudin <very.shafrudin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udinfm/bimtek-diskominfo-prov-kalbar/issues"
+  },
+  "homepage": "https://github.com/udinfm/bimtek-diskominfo-prov-kalbar#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
